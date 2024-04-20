@@ -16,11 +16,17 @@
 #home {
   font-size: 24px;
   margin: 4px 16px 4px 4px;
+  &:hover {
+    color: #0066CC;
+  }
 }
 
 div.navItems {
   font-size: 18px;
   margin: 0px 12px;
+  &:hover {
+      color: #0066CC;
+    }
 }
 
 #right {
@@ -63,4 +69,7 @@ div.navItems {
   padding: 2px 0px;
   margin: 4px 0px;
   border-bottom: 1px solid;
+  &:hover {
+      color: #0066CC;
+    }
 }
