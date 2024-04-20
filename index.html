@@ -18,22 +18,22 @@
 <body>
   <div id="nav">
     <div id="left">
-      <div>首頁</div>
-      <div>全部商品</div>
-      <div>全部品牌</div>
-      <div id="aboutUs" onclick="dropdown()">
-        <span>關於我們</span>
+      <div id="home">Home</div>
+      <div class="navItems">Products</div>
+      <div class="navItems">Brands</div>
+      <div id="aboutUs" class="navItems" onclick="dropdown()">
+        <span>About</span>
         <i class="fa-solid fa-caret-down"></i>
       </div>
-      <div id="dropdown" style="display: none">
-        <p>團隊介紹</p>
-        <p>企業宗旨</p>
-        <p>創業故事</p>
+      <div id="dropdown" style="display: block">
+        <p class="dropBtn">Team</p>
+        <p class="dropBtn">Purpose</p>
+        <p class="dropBtn">Story</p>
       </div>
     </div>
     <div id="right">
-      <input placeholder="Search">
-      <button>Search</button>
+      <input id="search" placeholder="Search">
+      <button id="searchBtn">Search</button>
     </div>
   </div>
 </body>

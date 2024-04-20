@@ -1,8 +1,66 @@
 #nav {
   display: flex;
   justify-content: space-between;
+  background-color: #C4E1FF;
+  cursor: pointer;
 }
 
 #left {
   display: flex;
+  margin: 8px;
+  align-items: center;
+  font-weight: 300;
+  position: relative;
+}
+
+#home {
+  font-size: 24px;
+  margin: 4px 16px 4px 4px;
+}
+
+div.navItems {
+  font-size: 18px;
+  margin: 0px 12px;
+}
+
+#right {
+  display: flex;
+  margin: 8px;
+  align-items: center;
+  font-weight: 300;
+}
+
+#search {
+  border-radius: 5px;
+  border: 0px;
+  margin-right: 12px;
+  padding: 4px 8px;
+}
+
+#searchBtn {
+  border: 1px solid;
+  border-color: #0066CC;
+  color: #0066CC;
+  background-color: #C4E1FF;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+#dropdown {
+  position: absolute;
+  top: 100%;
+  left: 75%;
+  background-color: #fff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 6px 16px;
+  z-index: 1;
+  border-radius: 5px;
+  border: 1px solid #ADADAD;
+}
+
+.dropBtn {
+  padding: 2px 0px;
+  margin: 4px 0px;
+  border-bottom: 1px solid;
 }
